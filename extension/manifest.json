@@ -1,0 +1,7 @@
+{
+  "manifest_version": 3,
+  "name": "Chess Threat Map",
+  "version": "1.2",
+  "description": "Threat map for lichess and chess.com bot games and training: colors squares by attackers vs defenders and shows conflict arrows while dragging.",
+  "content_scripts": [{ "matches": ["https://lichess.org/*", "https://www.chess.com/*"], "js": ["content.js"] }]
+}
